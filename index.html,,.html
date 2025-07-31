@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Basic SEO Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn web development basics with this beginner-friendly, accessible, and SEO-optimized HTML5 webpage structure.">
+    <meta name="keywords" content="HTML5, accessibility, SEO, beginner web development, semantic HTML">
+    <meta name="author" content="Your Name">
+    <title>Accessible and SEO-Friendly Webpage</title>
+</head>
+<body>
+    <!-- Header Section -->
+    <header role="banner">
+        <h1>Welcome to Web Basics</h1>
+        <p>Your guide to building accessible and SEO-friendly web pages</p>
+
+        <!-- Navigation with Accessibility Features -->
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="#about" accesskey="a">About</a></li>
+                <li><a href="#articles" accesskey="r">Articles</a></li>
+                <li><a href="#contact" accesskey="c">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Area -->
+    <main id="main-content">
+        <!-- About Section -->
+        <section id="about" aria-labelledby="about-heading">
+            <h2 id="about-heading">About This Page</h2>
+            <p>
+                This page demonstrates how to structure a website using 
+                <strong>HTML5 semantic elements</strong> for better 
+                <em>accessibility</em> and improved <em>search engine optimization (SEO)</em>.
+                It is designed for beginners learning best practices in web development.
+            </p>
+        </section>
+
+        <!-- Articles Section -->
+        <section id="articles" aria-labelledby="articles-heading">
+            <h2 id="articles-heading">Featured Articles</h2>
+            <article aria-labelledby="article1-title">
+                <h3 id="article1-title">Why Semantic HTML Matters</h3>
+                <p>
+                    Semantic HTML tags give meaning to your content, making it easier 
+                    for screen readers and search engines to understand your page structure.
+                </p>
+                <a href="#" aria-label="Read more about semantic HTML">Read more</a>
+            </article>
+
+            <article aria-labelledby="article2-title">
+                <h3 id="article2-title">Accessibility Basics for Beginners</h3>
+                <p>
+                    Learn how to make your website accessible to all users, 
+                    including those using assistive technologies such as screen readers.
+                </p>
+                <a href="#" aria-label="Read more about accessibility basics">Read more</a>
+            </article>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" aria-labelledby="contact-heading">
+            <h2 id="contact-heading">Contact Us</h2>
+            <p>If you have questions or feedback, we’d love to hear from you.</p>
+            <address>
+                <p>Email: <a href="amir.m1700769@st.futminna.edu.ng">amir.m1700769@st.futminna.edu.ng</a></p>
+                <p>Phone: <a href="tel:+2348032308017">+2348032308018</a></p>
+            </address>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer role="contentinfo">
+        <p>&copy; 2025 Web Basics. All rights reserved.</p>
+        <nav aria-label="Footer navigation">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#articles">Articles</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
